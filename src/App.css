@@ -7,6 +7,7 @@
 }
 
 .App-header {
+
   background-color: #79cde2;
   height: 150px;
   padding: 20px;
@@ -15,6 +16,11 @@
 
 .App-intro {
   font-size: large;
+}
+.background {
+  height: 35vh;
+  width: 125vw;
+  z-index: 0;
 }
 #searchbar{
   text-align: center;
@@ -48,9 +54,9 @@
     border: 1px solid #407FB3;
     font-size: 18px;
     padding: 0 1.5em;
-    height: 50px;
+    height: 49px;
     position: absolute;
-    top: 24px;
+    top: 36px;
     right: -1px;
 }
 #searchbar button .icon-search {

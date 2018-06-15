@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Icon from '../zoom-split.svg';
+import Icon from '../img/zoom-split.svg';
 class Searchbar extends Component {
 
   handleSubmit (e) {
@@ -10,8 +10,8 @@ class Searchbar extends Component {
     return (
       <form onSubmit={this.handleSubmit} id="searchbar">
         <input ref="srch" type="search" id="search" placeholder="Søk etter..." />
-        <button type="submit" aria-labelledby="Søk"><i class="icon-search lp"><Icon/></i><span>Søk</span></button>
-        <hr />
+        <button type="submit" aria-labelledby="Søk"><i class="icon-search lp"></i><span>Søk</span></button>
+
       </form>
     );
   }
