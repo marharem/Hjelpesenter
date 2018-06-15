@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #79cde2;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+#searchbar{
+  text-align: center;
+  margin-bottom: 0;
+  padding: 2em 0;
+  position: relative;
+  width: 620px;
+  margin: 0 auto;
+}
+
+#searchbar #search {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    width: 30vw;
+    height: 10vh;
+    font-size: 18px;
+  }
+#searchbar button, #searchBar button:hover {
+  background: transparent;
+}
+#searchbar button {
+    font-size: 0px;
+    border: none;
+}
+#searchbar button {
+    color: #fff;
+    text-shadow: 0 -1px 1px rgba(0,0,0,.4);
+    background: #4F92CA;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #407FB3;
+    font-size: 18px;
+    padding: 0 1.5em;
+    height: 50px;
+    position: absolute;
+    top: 24px;
+    right: -1px;
+}
+#searchbar button .icon-search {
+    display: inline-table;
+    text-shadow: none;
+    color: #54c5d0;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+}#searchbar button {
+  font-size: 0px;
+  border: none;
+}
+
+label, select, button, input[type=button], input[type=reset], input[type=submit], input[type=radio], input[type=checkbox] {
+    cursor: pointer;
+}
